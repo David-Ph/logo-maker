@@ -1,0 +1,24 @@
+@font-face {
+  font-family: primetime;
+  src: url(primetime.ttf);
+}
+
+body {
+  background-color: black;
+}
+
+.main-text {
+  box-sizing: content-box;
+  border: 8px solid #ff94e0;
+  padding: 0.5em;
+  margin: 2rem;
+  width: fit-content;
+  font-family: primetime;
+  color: #ff94e0;
+  font-size: 2rem;
+}
+
+.reverse {
+  display: inline-block;
+  transform: rotateY(180deg);
+}
